@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "tailwindcss"
+  ],
+  "extends": ["next/core-web-vitals","plugin:@typescript-eslint/recommended", "plugin:tailwindcss/recommended"],
+  "rules": {
+    "prefer-const": ["error"],
+    "no-console": ["error", { "allow": [
+      "warn", "error", "info"
+    ] }],
+    "no-alert": "error",
+    "tailwindcss/classnames-order": "error",
+    "tailwindcss/no-custom-classname": "off"
+  }
+}

@@ -1,0 +1,62 @@
+kind: pipeline
+name: lint-typecheck-build
+type: docker
+
+trigger:
+  event:
+    - pull_request
+  branch:
+    - master
+
+steps:
+  - name: install
+    image: node:16.9.1
+    commands:
+      - cd frontend
+      - yarn install
+
+  - name: lint
+    image: node:16.9.1
+    depends_on: [install]
+    commands:
+      - cd frontend
+      - yarn lint
+
+  - name: build-and-typescript-check
+    image: node:16.9.1
+    depends_on: [install]
+    commands:
+      - cd frontend
+      - yarn build
+
+---
+kind: pipeline
+name: build-publish-deploy
+type: docker
+
+trigger:
+  event:
+    - push
+  branch:
+    - master
+
+steps:
+  - name: install
+    image: node:16.9.1
+    commands:
+      - cd frontend
+      - yarn install
+
+  - name: lint
+    image: node:16.9.1
+    depends_on: [install]
+    commands:
+      - cd frontend
+      - yarn lint
+
+  - name: build-and-typescript-check
+    image: node:16.9.1
+    depends_on: [install]
+    commands:
+      - cd frontend
+      - yarn build

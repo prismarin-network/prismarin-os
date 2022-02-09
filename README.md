@@ -1,20 +1,45 @@
-# NextJS-TS-Scaffold
+<div align="center">
+    <img height="170px" src="https://user-images.githubusercontent.com/25954039/153209870-53441e8b-228d-48d3-a31d-58062e681eb7.png" alt="Prismarin"/>
+    <h1>Prismarin OS</h1>
+    <p>
+       <img height="20px" src="https://drone.prismar.in/api/badges/prismarin-network/prismarin-os/status.svg" />
+       <img height="20px" src="https://img.shields.io/badge/license-MIT-green" />
+       <img height="20px" src="https://img.shields.io/github/v/release/prismarin-network/prismarin-os" />
+    </p>
+   
+</div>
+<hr />
 
-This project uses NextJS, the react framework for production.
-If you want to learn more about NextJS, please visit its website: https://nextjs.org/
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-## Usage
+## Build
 
-```bash
-# run production build
-$ docker-compose up -d
+You can build the project in two different ways.
 
-# run production build (with rebuild in case of new changes)
-$ docker-compose up -d --build
-
-# view docker logs
-$ docker-compose logs -t -f
-
-# close docker process
-$ docker-compose down
+#### Node
 ```
+# navigate to the nextjs project folder
+cd frontend/
+
+# install all necessary dependencies
+yarn install
+
+# build the frontend
+yarn build
+
+# start the frontend (default port: 3000)
+yarn start 
+```
+
+#### Docker (Compose)
+
+```
+# Start (exposed port: 3000)
+docker-compose up -d
+```
+
+
+## Features
+
+
+## Licensing

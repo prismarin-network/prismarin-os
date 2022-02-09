@@ -10,8 +10,9 @@
 </div>
 <hr />
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Prismarin OS simulates a desktop environment and serves only as a portfolio project. Here you can find information and projects about the three authors of Prismarin-Network. In this repository there will be no contributions from other people.
 
+You can checkout the portfolio here: https://prismar.in/
 ## Build
 
 You can build the project in two different ways.
@@ -37,10 +38,6 @@ yarn start
 # Start (exposed port: 3000)
 docker-compose up -d
 ```
-
-
-## Features
-
 
 ## Licensing
 The content of this project is licensed under [MIT license](LICENSE).

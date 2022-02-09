@@ -43,3 +43,4 @@ docker-compose up -d
 
 
 ## Licensing
+The content of this project is licensed under [MIT license](MIT license).

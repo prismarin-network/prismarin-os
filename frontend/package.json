@@ -13,7 +13,6 @@
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
     "@headlessui/react": "^1.4.1",
-    "@woolgens/web-library": "^0.1.4",
     "faker": "^5.5.3",
     "mobx": "^6.3.5",
     "mobx-persist-store": "^1.0.4",

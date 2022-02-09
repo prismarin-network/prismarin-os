@@ -627,11 +627,6 @@
     "@typescript-eslint/types" "5.3.0"
     eslint-visitor-keys "^3.0.0"
 
-"@woolgens/web-library@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@woolgens/web-library/-/web-library-0.1.4.tgz#90b9cd4a072750b0365d9bd562406d2cca4e07eb"
-  integrity sha512-ELoxgGqnpy3Si03AmHKLtMGehOKXDrvrHddEiiIBrnhrZpLjeNfP3V92ED08ogbK1WieaGCTTMLtE49TWa4Q5w==
-
 accepts@^1.3.5:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"

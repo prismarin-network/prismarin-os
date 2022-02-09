@@ -1,10 +1,10 @@
 import React, {FC} from "react";
 
-interface DefaultLayoutProps {
+interface LayoutProps {
     children: React.ReactNode
 }
 
-const DefaultLayout: FC<DefaultLayoutProps> = ({children}) => {
+const Layout: FC<LayoutProps> = ({children}) => {
     return (
         <div>
             {children}
@@ -12,4 +12,4 @@ const DefaultLayout: FC<DefaultLayoutProps> = ({children}) => {
     )
 }
 
-export default DefaultLayout
+export default Layout

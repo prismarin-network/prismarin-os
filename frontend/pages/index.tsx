@@ -1,14 +1,12 @@
 import {observer} from "mobx-react-lite";
-import persistentStore from "../stores/PersistentStore";
-import DefaultComponent from "../components/DefaultComponent";
-import DefaultLayout from "../layouts/DefaultLayout";
+import Layout from "../layouts/Layout";
 
 const IndexPage = observer(() => {
 
     return (
-        <DefaultLayout>
-            <DefaultComponent name={persistentStore.name} setName={persistentStore.setName} />
-        </DefaultLayout>
+        <Layout>
+
+        </Layout>
     )
 })
 

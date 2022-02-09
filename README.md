@@ -1,5 +1,5 @@
 <div align="center">
-    <img height="170px" src="https://user-images.githubusercontent.com/25954039/153209870-53441e8b-228d-48d3-a31d-58062e681eb7.png" alt="Prismarin"/>
+    <img height="170px" src="https://user-images.githubusercontent.com/25954039/153234140-4ee6886c-1a7f-4ebb-b10d-057262383a57.png" alt="Prismarin"/>
     <h1>Prismarin OS</h1>
     <p>
        <img height="20px" src="https://drone.prismar.in/api/badges/prismarin-network/prismarin-os/status.svg" />
@@ -9,6 +9,7 @@
    
 </div>
 <hr />
+
 
 Prismarin OS simulates a desktop environment and serves only as a portfolio project. Here you can find information and projects about the three authors of Prismarin-Network. In this repository there will be no contributions from other people.
 

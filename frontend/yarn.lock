@@ -3985,10 +3985,10 @@ table@^6.0.9:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailwind-config-viewer@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.6.2.tgz#656df8e53718d7794599e9c0c7a93e732abba1df"
-  integrity sha512-GEysLLUkHF/CW7idElDIsCUWwNfE5v4SpecNv5Z10KGtX8ez2ZUlHep/bJZ4E/Hk+IqJQt2hChFx43VkDN7WtQ==
+tailwind-config-viewer@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.6.3.tgz#cbd6ba6d4a6f063bb5023261dfaf3c05358cf8ba"
+  integrity sha512-XesuasyVLDXadHhLLDeS0H5EiAhhWnRPDjDRsP4sYRXGn8h7Vgnv9TzFXvoaNG6dvuRuwWQxJRfNOjaWid2V1g==
   dependencies:
     "@koa/router" "^9.0.1"
     commander "^6.0.0"

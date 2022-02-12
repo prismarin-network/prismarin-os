@@ -19,7 +19,7 @@ const Icon: FC<IconProps> = observer(({id}) => {
     return (
         <Draggable
             defaultPosition={icon.position}
-            bounds="body"
+            bounds="section"
             grid={[125, 100]}
             scale={1}
             onStop={(e: MouseEvent, data: DraggableData) => desktopStore.updateIconPosition(icon.id, { x: data.x, y: data.y })}

@@ -2,21 +2,42 @@ import styles from "../styles/modules/gradients.module.css";
 import {Transition} from "@headlessui/react";
 import Logo from "./common/media/Logo";
 import {CgSpinner} from "react-icons/cg";
-import {useEffect, useState} from "react";
+import {FC, ReactNode, useEffect, useState} from "react";
 
-const Loading = () => {
+interface LoadingProps {
+    children: ReactNode
+}
+
+const Loading: FC<LoadingProps> = ({children}) => {
 
     const [text, setText] = useState("Initializing");
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         setTimeout(() => {
             setText("Starting up")
-        }, 3500)
+
+            setTimeout(() => {
+                setLoading(false)
+            }, 1000);
+
+        }, 3000)
     }, [])
+
+
+    if(!loading) {
+        return (
+            <>
+                {children}
+            </>
+        )
+    }
+
 
     return (
         <Transition
             show={true}
+            appear={true}
             enter="transition-opacity duration-700"
             enterFrom="opacity-0"
             enterTo="opacity-100"
@@ -44,7 +65,7 @@ const Loading = () => {
                             <a className="text-2xl uppercase">Prismarin OS</a>
                             <div className="flex justify-center items-center space-x-3">
                                 <a className="text-gray-200 opacity-75">{text}</a>
-                                <a className="mt-1 animate-spin"><CgSpinner /> </a>
+                                <a className="mt-1 animate-spin"><CgSpinner/> </a>
 
                             </div>
 

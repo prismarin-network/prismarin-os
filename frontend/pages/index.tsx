@@ -8,7 +8,7 @@ const IndexPage = observer(() => {
 
     return (
         <Layout>
-            {Object.entries(desktopStore.icons).map(([, icon], index) => <Icon key={index} icon={icon} />)}
+            {Object.keys(desktopStore.icons).map((key, index) => <Icon key={index} id={key} />)}
 
             <Window
                 id="Home"

@@ -37,6 +37,7 @@ const Loading: FC<LoadingProps> = ({children}) => {
     return (
         <Transition
             show={true}
+            appear={true}
             enter="transition-opacity duration-700"
             enterFrom="opacity-0"
             enterTo="opacity-100"

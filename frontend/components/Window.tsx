@@ -24,7 +24,7 @@ const Window: FC<WindowProps> = observer(({id, classes, children}) => {
     return (
         <Draggable
             defaultPosition={window.position}
-            bounds="body"
+            bounds="section"
             onStop={(e: MouseEvent, data: DraggableData) => desktopStore.updateWindowPosition(id, { x: data.x, y: data.y })}
             handle="header"
         >

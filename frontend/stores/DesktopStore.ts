@@ -17,7 +17,7 @@ class DesktopStore {
     icons: Record<string, WindowIcon> = {
         "Home": {
             id: "Home",
-            title: "Start",
+            title: "Start Programm",
             color: "bg-red-500",
             position: {
                 x: 0,
